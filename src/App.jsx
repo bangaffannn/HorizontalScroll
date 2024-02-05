@@ -10,9 +10,9 @@ export default function App() {
       </h1>
 
       <div>
-        <ul className="flex flex-row gap-4 overflow-x-auto">
+        <ul className="flex flex-row gap-4 overflow-x-auto transition-all duration-300 ease-in-out">
           {list.map((item) => (
-            <button className="px-3 py-1 bg-blue-800 hover:bg-blue-900 rounded-full text-white">
+            <button className="px-3 py-1 bg-black hover:bg-gray-700 rounded-full text-white">
               {item}
             </button>
           ))}
